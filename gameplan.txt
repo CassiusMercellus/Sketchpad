@@ -1,0 +1,12 @@
+To create a 16x16 grid loop through a function that creates 16 containers
+then inside that loop for each of the 16 containers created create 16 columns
+All of those divs should have a class of white and a class of sketchpad
+
+
+Setup a hover effect for each sketchpad item
+
+
+Set Size of the sketchpad
+In order to achieve this but keep the sketchpad the same size I have to 
+change the resolution. In order to do that I need the container element
+to be set to a specific size
