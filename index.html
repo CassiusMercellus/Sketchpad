@@ -11,14 +11,14 @@
     <header>
         <h1>Sketch Pad</h1>
         <div class="buttons">
-            <button>Black</button>
-            <button>Eraser</button>
-            <button>Random</button>
-            <button>Reset</button>
+            <button class="selected" id="black">Black</button>
+            <button class="unselected" id="erase">Eraser</button>
+            <button class="unselected" id="random">Random</button>
         </div>
         <div class="size">
             <input id="input"></input>
-            <button>Set Size</button>
+            <button id="setSize">Set Size</button>
+            <button id="reset">Reset</button>
         </div>
     </header>
     <div class="container" id="container">

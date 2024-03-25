@@ -32,6 +32,12 @@ header h1{
     border-radius: 10px;
 
 }
+.buttons .selected {
+    border: solid 2px black;
+    color:black;
+    background-color:white;
+}
+
 .buttons button {
     width: 80px;
     margin: 10px;
@@ -64,8 +70,10 @@ header h1{
 
 .white {
     background-color: white;
-    width: 43.75px;
-    height: 43.75px;
+}
+
+.black {
+    background-color: black;
 }
 
 .column:hover {
